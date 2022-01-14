@@ -1,0 +1,20 @@
+.dealsList {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: space-around;
+    list-style: none;
+    gap: 20px;
+} 
+.boxDealsContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 16px;
+}
+.iconProfile {
+    height: 50px;
+    width: 50px;
+}

@@ -1,0 +1,21 @@
+.contentBestDealsPage {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+.currentBestMeme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 80vh;
+
+}
+.currentBestMemeIcon{
+    width: 250px;
+    height: 250px;
+}
+.dealsFromUser {
+    width: 60%;
+}

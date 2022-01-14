@@ -1,0 +1,62 @@
+// responsive - breakpoints
+$breakpoints: (
+    "xs": 0, 
+    "sm": 480px,
+    "md": 720px,
+    "lg": 960px,
+    "xl": 1200px
+);
+
+// Include breakpoints in each @mediaQuery. 
+@mixin xs {
+    @warn "HOLA";
+    @media (min-width: map-get($breakpoints, "xs")) {
+        @content 
+    }
+};
+@mixin sm {
+    @media (min-width: map-get($breakpoints, "sm")) {
+        @content 
+    }
+};
+@mixin md {
+    @media (min-width: map-get($breakpoints, "md")) {
+        @content 
+    }
+};
+@mixin lg {
+    @media (min-width: map-get($breakpoints, "lg")) {
+        @content 
+    }
+};
+@mixin xl {
+    @media (min-width: map-get($breakpoints, "xl")) {
+        @content 
+    }
+};
+
+// Automatic detection of what to take from @media based on screen size 
+@mixin breackpoint($bp: 0) {
+    @media (min-width: $bp) {
+        @content
+    } 
+};
+
+// ejemplo para utilizar mediasQuery en cualquier archivo  
+// .resposive-test {
+//     @include xs {
+//         color: red;
+//     }
+//     @include sm {
+//         color: blue;
+//     }
+//     @include md {
+//         color: yellowgreen;
+//     }
+//     @include lg {
+//         color: green;
+//     }
+//     @include xl {
+//         color: orange;
+//     }
+// }

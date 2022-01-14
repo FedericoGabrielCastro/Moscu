@@ -1,0 +1,22 @@
+.contentMemeOfTheMonthPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.currentBestMemeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+} 
+.currentBestMemeIcon {
+    height: 280px;
+    width: 280px;
+} 
+.moreInfoBestMemeBtn {
+    padding: 10px;
+}
+.latestCoversContent {
+    width: 100%;
+}

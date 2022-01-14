@@ -1,0 +1,12 @@
+// const
+@import "const/mediaQuery"; // responsive website
+@import "const/colors"; // All colors 
+// Pages
+@import "views/memeOfTheMonthStyle"; // page structure
+@import "views/buyMemeStyle"; // page structure
+@import "views/bestDealsStyle"; // page structure
+// Components
+@import "components/customNavbarStyle"; // custom navbar 
+@import "components/latestCoversStyle"; // latests memes (six) 
+@import "components/betFormStyle"; // form to make bets 
+@import "components/bestDealsStyle"; // best deals for month

@@ -1,0 +1,15 @@
+// .contentLatestMemes {
+// } 
+.latestList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+.latestIcon {
+    height: 100px;
+    width: 80px;
+}
+.LatetsText {
+    text-align: center;
+}
